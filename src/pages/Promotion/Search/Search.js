@@ -6,7 +6,7 @@ const PagesPromotionSearch = () => {
   const [promotions, setPromotions] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/promotions?_embed=comments')
+    axios.get('http://localhost:3000/promotion?_embed=comments')
       .then((response) => {
         setPromotions(response.data);
       });

@@ -11,9 +11,9 @@ import PagesPromotionForm from './Promotion/Form/Form';
       return (
           <Router>
             <Switch>
+                <Route path="/" component={PagesPromotionSearch} />
                 <Route path="/create" component={PagesPromotionForm} />
                 <Route path="/edit/:id" component={PagesPromotionForm} />
-                 <Route path="/" component={PagesPromotionSearch} />
             </Switch>
           </Router>
       )
