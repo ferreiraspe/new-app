@@ -1,11 +1,7 @@
-import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-  } from 'react-router-dom';
-import PagesPromotionSearch from './Promotion/Search/Search';
-import PagesPromotionForm from './Promotion/Form/Form';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import PagesPromotionSearch from "./Promotion/Search/Search";
+import PagesPromotionForm from "./Promotion/Form/Form";
 
   const Root = () => {
       return (
