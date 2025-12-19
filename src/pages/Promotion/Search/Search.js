@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from 'axios';
 import PromotionSearch from "components/Promotion/Search/Search";
 import UIContainer from "components/UI/Container/Container";
 
@@ -14,7 +15,7 @@ const PagesPromotionSearch = () => {
 
   return (
     <UIContainer>
-      <PromotionSearch />
+      <PromotionSearch promotions={promotions} />
     </UIContainer>
   );
 };
